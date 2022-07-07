@@ -52,7 +52,7 @@ public class Backup {
         comandos.add(Base);
         ProcessBuilder pb = new ProcessBuilder(comandos);
 
-        pb.environment().put("PGPASSWORD", "q1w2e3@@!");
+        pb.environment().put("PGPASSWORD", "123456");
             Properties properties = new Properties();
             FileInputStream fis = new FileInputStream("C:\\BackupPostgresql\\config\\dados.properties");
         try {
